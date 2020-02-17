@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<script>
+function myfun()
+{
+var nos1=[33,55,6];
+var nos2=nos1.map(myfunction);
+document.write("result:"+nos2);
+
+}
+</script>
+
+</body>
+</html>
+
+
