@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>
+        calculator
+    </title>
+
+    <script>
+        function calc(val)
+        {
+            document.getElementById("res").value+=val;
+        }
+        function clr(val)
+        {
+            document.getElementById("res").value="";
+        }
+         function addfun() {
+        //     let x = document.getElementById("res").value;
+        //     let y=eval(x);
+        //     document.getElementById("res").value=y;
+        
+            var no1 = document.getElementById("res").value;
+         }
+        //     var no1 = document.no2.value;
+        //     var no2 = no1 + no2;
+        //     document.getElementById("demo").innerHTML = no3;
+        // }
+        // function subfun() {
+        //     var no1 = document.no1.value;
+
+        //     var no2 = document.no2.value;
+        //     var no3 = no1 - no2;
+        //     document.getElementById("demo").innerHTML = no3;
+
+        // } function dividefun() {
+        //     var no1 = document.no1.value;
+
+        //     var no2 = document.no2.value;
+        //     var no3 = no1 / no2;
+        //     document.getElementById("demo").innerHTML = no3;
+        // } function modulusfunfun() {
+        //     var no1 = document.no1.value;
+
+        //     var no2 = document.no2.value;
+        //     var no3 = no1 * no2;
+        //     document.getElementById("demo").innerHTML = no3;
+        // }
+    </script>
+    <style>
+        td {
+            width: 50px;
+        }
+
+        input[type="button"] {
+            width: 100%;
+        }
+    </style>
+
+<body>
+
+    <h1><u>calculator</h1>
+
+
+
+    <table border="1">
+        <tr>
+            <td colspan="3"><input type="text"  id="res"></td>
+            <td><b><input type="button" value="c" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="calc('1')"></td>
+            <td><input type="button" value="2" onclick="calc('2')"></td>
+            <td><input type="button" value="3"  onclick="calc('3')"></td>
+            <td><b><input type="button" value="+" onclick="addfun()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="calc('4')"></td>
+            <td><input type="button" value="5" onclick="calc('5')"></td>
+            <td><input type="button" value="6" onclick="calc('6')"></td>
+            <td><b><input type="button" value="-" onclick="subtractfun()" style=""></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="calc('7')"></td>
+            <td><input type="button" value="8" onclick="calc('8')">/td>
+            <td><input type="button" value="9"onclick="calc('9')"></td>
+            <td><b><input type="button" value="/" onclick="dividefun()"></td>
+
+
+        </tr>
+        <tr>
+            <td><input type="button" value="0"></td>
+            <td><b><input type="button" value="enter" onclick="enterfun()"></td>
+
+            <td><b><input type="button" value="cancel" onclick="cancelfun()"></td>
+
+            <td><b><input type="button" value="%" onclick="modulusfun()"></td>
+
+
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
