@@ -1,8 +1,8 @@
- DailyWork
-####Day_ 1 HTML
-#### Day_2 CSS
+ ## DailyWork
+####  Day_ 1 HTML
+####  Day_2 CSS
 ####  Day_3 JavaScript
-####Day_4 BootStrap
+####  Day_4 BootStrap
 ####  Day_5 Page Designing
 ####  Day_6 JAVA Core (Introduction) and installation
 ####  Day_7 Variable, instances, static,final loops and some programming practice
