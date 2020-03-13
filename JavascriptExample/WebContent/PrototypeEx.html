@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	function Employee(firstName) {
+		this.firstName = firstName;
+	}
+	var e1 = new Employee("sakshi");
+	var e2 = new Employee("agrawal");
+	
+	Employee.prototype.getEmployeeName=function(){
+		return this.firstName;
+		
+	}
+	
+	
+	
+	//e1.getEmployeeName = function() {
+		//return this.firstName;
+	//}
+	//e2.getEmployeeName = function() {
+		//return this.firstName;
+	//}
+	document.write("e1 name="+	e1.getEmployeeName());
+	document.write("<br>e2 name="+	e2.getEmployeeName());
+
+</script>
+</html>
